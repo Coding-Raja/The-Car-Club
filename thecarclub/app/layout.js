@@ -14,6 +14,12 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "The Car Club",
   description: "A blog for Car lovers",
+   icons: {
+    icon: {
+      url: '/Hacker.png',
+      type: 'image/png',
+    }
+  }
 };
 
 export default function RootLayout({ children }) {
