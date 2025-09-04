@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,9 +13,18 @@ const Header = () => {
             <div className='container mx-auto px-4 flex justify-between items-center'>
                 {/* Logo */}
                 <div className='flex items-center'>
-                    <Link href="/" className='text-white font-bold text-xl md:text-2xl hover:text-gray-300 transition duration-200'>
-                        The Car Club
-                    </Link>
+                  <div className="p-1.5 rounded-lg mr-3">
+                    <Image 
+                      src="/Logo.png" 
+                      alt="The Car Club Logo" 
+                      width={40} 
+                      height={40}
+                      className="rounded-sm bg-black"
+                    />
+                  </div>
+                  <Link href="/" className='text-white font-bold text-xl md:text-2xl hover:text-gray-300 transition duration-200'>
+                      The Car Club
+                  </Link>
                 </div>
                 
                 {/* Desktop Navigation */}
@@ -43,9 +53,9 @@ const Header = () => {
             {isMenuOpen && (
                 <div className='md:hidden'>
                     <div className='px-2 pt-2 pb-4 space-y-1 bg-black border-t border-gray-700'>
-                        <Link href="/" className='block px-3 py-2 text-base hover:text-gray-300 transition duration-200'>Home</Link>
-                        <Link href="/about" className='block px-3 py-2 text-base hover:text-gray-300 transition duration-200'>About</Link>
-                        <Link href="/blog" className='block px-3 py-2 text-base hover:text-gray-300 transition duration-200'>Blogs</Link>
+                        <Link href="/" className='block px-3 py-2 text-base hover:text-gray-300 transition duration-200' onClick={() => setIsMenuOpen(false)}>Home</Link>
+                        <Link href="/about" className='block px-3 py-2 text-base hover:text-gray-300 transition duration-200' onClick={() => setIsMenuOpen(false)}>About</Link>
+                        <Link href="/blog" className='block px-3 py-2 text-base hover:text-gray-300 transition duration-200' onClick={() => setIsMenuOpen(false)}>Blogs</Link>
                     </div>
                 </div>
             )}
