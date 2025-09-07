@@ -31,7 +31,7 @@ const Header = () => {
                 <div className='hidden md:block'>
                     <ul className='flex list-none space-x-6 lg:space-x-8 text-base lg:text-lg'>
                         <li><Link href="/" className='hover:text-gray-300 transition duration-200'>Home</Link></li>
-                        <li><Link href="/about" className='hover:text-gray-300 transition duration-200'>About</Link></li>
+                        <li><Link href="/about" className='hover:text-gray-300 transition duration-200'>About Us</Link></li>
                         <li><Link href="/blog" className='hover:text-gray-300 transition duration-200'>Blogs</Link></li>
                     </ul>
                 </div>
