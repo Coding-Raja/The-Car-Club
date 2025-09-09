@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
     <main className="flex justify-center items-center px-4 sm:px-6 lg:px-8 mt-6 mb-10">
-      <div className="w-full md:w-5/6 lg:w-3/4 p-6 sm:p-8 md:p-10 bg-[linear-gradient(135deg,rgba(255,255,255,0.63),rgba(0,0,0,0.219))] shadow-gray-500 shadow rounded-lg">
+      <div className="w-full md:w-5/6 lg:w-3/4 p-6 sm:p-8 md:p-10">
         
         {/* Title */}
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-5 text-pretty">
