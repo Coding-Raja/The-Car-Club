@@ -32,10 +32,87 @@ const Blogs = () => {
               height={250}
               className="rounded mb-4 w-full h-auto"
             />
-            <h2 className="text-lg font-semibold mb-2">BMW Sports Cars</h2>
+            <h2 className="text-lg font-semibold mb-2">BMW M4 Sports</h2>
             <p className="mb-3 text-sm sm:text-base">
               Stylish, powerful, and precise—BMW sports cars bring thrilling 
               performance with a touch of modern luxury.
+            </p>
+            <Link href="/blogs/blogsdata#BMw" className="text-sky-700 hover:underline">
+              Read More →
+            </Link>
+          </div>
+
+          {/* Blog Card 2 */}
+          <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
+            <Image
+              src="/Charger.jpg"
+              alt="Dodge Charger Blog"
+              width={400}
+              height={250}
+              className="rounded mb-4 w-full h-auto"
+            />
+            <h2 className="text-lg font-semibold mb-2">Dodge Charger Hellcat</h2>
+            <p className="mb-3 text-sm sm:text-base">
+              A true American muscle icon—supercharged V8, aggressive styling, 
+              and raw power that excites every driver.
+            </p>
+            <Link href="#" className="text-sky-700 hover:underline">
+              Read More →
+            </Link>
+          </div>
+
+          {/* Blog Card 3 */}
+          <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
+            <Image
+              src="/Supra.jpg"
+              alt="Dodge Charger Blog"
+              width={400}
+              height={250}
+              className="rounded mb-4 w-full h-auto"
+            />
+            <h2 className="text-lg font-semibold mb-2">Supra MK4</h2>
+            <p className="mb-3 text-sm sm:text-base">
+              A legendary Japanese sports car known for its sleek design, powerful turbo engine, and huge tuning potential.
+            </p>
+            <Link href="#" className="text-sky-700 hover:underline">
+              Read More →
+            </Link>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <main className="flex justify-center items-center px-4 sm:px-6 lg:px-8 mt-6 mb-10">
+      <div className="w-full md:w-5/6 lg:w-3/4 p-6 sm:p-8 md:p-10">
+
+        {/* Page Title */}
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-pretty text-center">
+          Our Blogs
+        </h1>
+
+        {/* Intro */}
+        <p className="text-center text-base sm:text-lg mb-8 max-w-2xl mx-auto">
+          Explore insights, reviews, and stories from the world of automobiles. 
+          From speed-packed sports cars to elegant luxury rides, our blogs bring 
+          you the latest trends and timeless classics.
+        </p>
+
+        {/* Blog Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          {/* Blog Card 1 */}
+          <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
+            <Image
+              src="/Mustang.jpeg"
+              alt="Ford Mustang Blog"
+              width={400}
+              height={250}
+              className="rounded mb-4 w-full h-auto"
+            />
+            <h2 className="text-lg font-semibold mb-2">Ford Mustang GT500</h2>
+            <p className="mb-3 text-sm sm:text-base">
+              A high-performance muscle car with iconic design, a supercharged V8 engine, and thrilling speed, delivering the ultimate Mustang experience.
             </p>
             <Link href="#" className="text-sky-700 hover:underline">
               Read More →
@@ -83,16 +160,15 @@ const Blogs = () => {
           {/* Blog Card 4 */}
           <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
             <Image
-              src="/Charger.jpg"
-              alt="Dodge Charger Blog"
+              src="/Camaro.jpg"
+              alt="Chevrolet Camaro Blog"
               width={400}
               height={250}
               className="rounded mb-4 w-full h-auto"
             />
-            <h2 className="text-lg font-semibold mb-2">Dodge Charger Hellcat</h2>
+            <h2 className="text-lg font-semibold mb-2">Chevrolet Camaro ZL1</h2>
             <p className="mb-3 text-sm sm:text-base">
-              A true American muscle icon—supercharged V8, aggressive styling, 
-              and raw power that excites every driver.
+              A modern muscle car with aggressive styling, a supercharged V8 engine, and track-ready performance, built for both power and speed.
             </p>
             <Link href="#" className="text-sky-700 hover:underline">
               Read More →
@@ -102,15 +178,15 @@ const Blogs = () => {
           {/* Blog Card 5 */}
           <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
             <Image
-              src="/Supra.jpg"
-              alt="Dodge Charger Blog"
+              src="/Dchallenger.jpeg"
+              alt="Dodge Challenger Blog"
               width={400}
               height={250}
               className="rounded mb-4 w-full h-auto"
             />
-            <h2 className="text-lg font-semibold mb-2">Supra MK4</h2>
+            <h2 className="text-lg font-semibold mb-2">Dodge Challenger</h2>
             <p className="mb-3 text-sm sm:text-base">
-              A legendary Japanese sports car known for its sleek design, powerful turbo engine, and huge tuning potential.
+              A classic American muscle car known for its bold design, powerful engines, and strong road presence, combining retro style with modern performance.
             </p>
             <Link href="#" className="text-sky-700 hover:underline">
               Read More →

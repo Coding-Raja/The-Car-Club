@@ -32,7 +32,7 @@ export default function Home() {
                 your journey, our community is built to share knowledge, reviews, and insights on everything with 
                 wheels—from classic cars to modern trucks and beyond.
              </p>
-             <div type="button" className="bg-gray-300 w-full text-gray-700 sm:w-2/3 md:w-2/5 lg:w-1/5 p-2 sm:p-3 mx-auto flex justify-center rounded-md shadow shadow-gray-500 hover:bg-gray-500 duration-500 hover:text-gray-200 hover:cursor-pointer hover:shadow-lg hover:shadow-gray-600"><Link href="/about" className="text-sky-700 hover:text-gray-200">See About Us</Link></div>
+             <div type="button" className="bg-white/30 w-full text-black/50 sm:w-2/3 md:w-2/5 lg:w-1/5 p-2 sm:p-3 mx-auto flex justify-center rounded-md shadow shadow-gray-500 hover:bg-black/50 duration-500 hover:text-white/70 hover:cursor-pointer hover:shadow-lg hover:shadow-gray-600"><Link href="/about">See About Us</Link></div>
          </div>
      </main>
      <main className="flex justify-center items-center mt-5 mb-5 px-4 sm:px-6 lg:px-8">
