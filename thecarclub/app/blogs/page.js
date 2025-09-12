@@ -37,7 +37,7 @@ const Blogs = () => {
               Stylish, powerful, and precise—BMW sports cars bring thrilling 
               performance with a touch of modern luxury.
             </p>
-            <Link href="/blogs/blogsdata#BMw" className="text-sky-700 hover:underline">
+            <Link href="/blogs/blogsdata#BMW" className="text-sky-700 hover:underline">
               Read More →
             </Link>
           </div>
@@ -56,7 +56,7 @@ const Blogs = () => {
               A true American muscle icon—supercharged V8, aggressive styling, 
               and raw power that excites every driver.
             </p>
-            <Link href="#" className="text-sky-700 hover:underline">
+            <Link href="/blogs/blogsdata#Charger" className="text-sky-700 hover:underline">
               Read More →
             </Link>
           </div>
@@ -74,7 +74,7 @@ const Blogs = () => {
             <p className="mb-3 text-sm sm:text-base">
               A legendary Japanese sports car known for its sleek design, powerful turbo engine, and huge tuning potential.
             </p>
-            <Link href="#" className="text-sky-700 hover:underline">
+            <Link href="/blogs/blogsdata#Supra" className="text-sky-700 hover:underline">
               Read More →
             </Link>
           </div>
@@ -114,7 +114,7 @@ const Blogs = () => {
             <p className="mb-3 text-sm sm:text-base">
               A high-performance muscle car with iconic design, a supercharged V8 engine, and thrilling speed, delivering the ultimate Mustang experience.
             </p>
-            <Link href="#" className="text-sky-700 hover:underline">
+            <Link href="/blogs/blogsdata#Mustang" className="text-sky-700 hover:underline">
               Read More →
             </Link>
           </div>
@@ -133,7 +133,7 @@ const Blogs = () => {
               Rolls-Royce stands for unmatched luxury, elegance, and a driving 
               experience that feels timeless.
             </p>
-            <Link href="#" className="text-sky-700 hover:underline">
+            <Link href="/blogs/blogsdata#Rolls-Royce" className="text-sky-700 hover:underline">
               Read More →
             </Link>
           </div>
@@ -152,7 +152,7 @@ const Blogs = () => {
               A convertible that blends timeless design, powerful performance, 
               and the joy of open-top driving.
             </p>
-            <Link href="#" className="text-sky-700 hover:underline">
+            <Link href="/blogs/blogsdata#Porsche" className="text-sky-700 hover:underline">
               Read More →
             </Link>
           </div>
@@ -170,7 +170,7 @@ const Blogs = () => {
             <p className="mb-3 text-sm sm:text-base">
               A modern muscle car with aggressive styling, a supercharged V8 engine, and track-ready performance, built for both power and speed.
             </p>
-            <Link href="#" className="text-sky-700 hover:underline">
+            <Link href="/blogs/blogsdata#Camaro" className="text-sky-700 hover:underline">
               Read More →
             </Link>
           </div>
@@ -188,7 +188,7 @@ const Blogs = () => {
             <p className="mb-3 text-sm sm:text-base">
               A classic American muscle car known for its bold design, powerful engines, and strong road presence, combining retro style with modern performance.
             </p>
-            <Link href="#" className="text-sky-700 hover:underline">
+            <Link href="/blogs/blogsdata#Challenger" className="text-sky-700 hover:underline">
               Read More →
             </Link>
           </div>
@@ -206,7 +206,7 @@ const Blogs = () => {
             <p className="mb-3 text-sm sm:text-base">
               A luxury sedan combining elegant design, a refined interior, and powerful performance.
             </p>
-            <Link href="#" className="text-sky-700 hover:underline">
+            <Link href="/blogs/blogsdata#Bentley" className="text-sky-700 hover:underline">
               Read More →
             </Link>
           </div>

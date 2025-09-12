@@ -80,7 +80,7 @@ export default function Home() {
           />
         </div>
         <p>BMW sports cars are stylish and powerful, offering sharp handling, strong engines, and modern design.</p>
-        <p><Link href="#" className="text-sky-700">Read More →</Link></p>
+        <p><Link href="/blogs/blogsdata#BMW" className="text-sky-700">Read More →</Link></p>
       </div>
 
       <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
@@ -94,7 +94,7 @@ export default function Home() {
           />
         </div>
         <p>Iconic luxury cars known for elegance, comfort, and powerful performance.</p>
-        <p><Link href="#" className="text-sky-700">Read More →</Link></p>
+        <p><Link href="/blogs/blogsdata#Rolls-Royce" className="text-sky-700">Read More →</Link></p>
       </div>
 
       <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
@@ -108,7 +108,7 @@ export default function Home() {
           />
         </div>
         <p>A luxury sports convertible that offers open-top driving, timeless design, and powerful performance.</p>
-        <p><Link href="#" className="text-sky-700">Read More →</Link></p>
+        <p><Link href="/blogs/blogsdata#Porsche" className="text-sky-700">Read More →</Link></p>
       </div>
 
       <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
@@ -122,7 +122,7 @@ export default function Home() {
           />
         </div>
         <p>A powerful American muscle car with a supercharged V8 engine, aggressive design, and thrilling speed.</p>
-        <p><Link href="#" className="text-sky-700">Read More →</Link></p>
+        <p><Link href="/blogs/blogsdata#Charger" className="text-sky-700">Read More →</Link></p>
       </div>
 
       <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
@@ -136,7 +136,7 @@ export default function Home() {
           />
         </div>
         <p>A legendary Japanese sports car known for its sleek design, powerful turbo engine, and huge tuning potential.</p>
-        <p><Link href="#" className="text-sky-700">Read More →</Link></p>
+        <p><Link href="/blogs/blogsdata#Supra" className="text-sky-700">Read More →</Link></p>
       </div>
 
       <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
@@ -150,7 +150,7 @@ export default function Home() {
           />
         </div>
         <p>A classic American muscle car with aggressive styling, a powerful engine, and thrilling road performance.</p>
-        <p><Link href="#" className="text-sky-700">Read More →</Link></p>
+        <p><Link href="/blogs/blogsdata#Challenger" className="text-sky-700">Read More →</Link></p>
       </div>
 
     </div>
