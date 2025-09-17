@@ -36,12 +36,14 @@ const Contact = () => {
               rows="5"
               className="w-full p-3 border rounded-lg shadow-sm focus:ring focus:ring-blue-300"
             ></textarea>
-            <button
+            <div className="flex justify-center">
+              <button
               type="submit"
               className="px-6 py-3 bg-white/20 text-black/70 cursor-pointer font-semibold rounded-lg shadow-md shadow-gray-500 hover:shadow-lg hover:shadow-gray-600 hover:bg-black/50 hover:text-white/60 duration-500 transition"
             >
               Send Message
             </button>
+            </div>
           </form>
         </div>
       </main>
