@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page1.module.css";
 import Link from "next/link";
+import blogs from "../data/blogsdata.json";
 
 export default function Home() {
   return (
@@ -35,127 +36,66 @@ export default function Home() {
              <div type="button" className="bg-white/30 w-full text-black/50 sm:w-2/3 md:w-2/5 lg:w-1/5 p-2 sm:p-3 mx-auto flex justify-center rounded-md shadow shadow-gray-500 hover:bg-black/50 duration-500 hover:text-white/70 hover:cursor-pointer hover:shadow-lg hover:shadow-gray-600"><Link href="/about">See About Us</Link></div>
          </div>
      </main>
-     <main className="flex justify-center items-center mt-5 mb-5 px-4 sm:px-6 lg:px-8">
+      <main className="flex justify-center items-center mt-5 px-4 sm:px-6 lg:px-8">
   <div className="w-full md:w-5/6 lg:w-3/4 p-4 sm:p-6 md:p-8">
-    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-center mb-4 md:mb-5">Blogs Categories</h2>
+    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-pretty mb-4 md:mb-5">Blogs Categories</h2>
     
     <details className="p-2.5 border border-black mb-5">
-      <summary className="font-semibold cursor-pointer">Click to See Categories</summary>
+      <summary className="font-semibold cursor-pointer">Click to See</summary>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 justify-center p-4">
         
-        <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
+        <div className="w-full p-4 bg-white/30 shadow shadow-black/30 rounded hover:shadow-lg hover:shadow-black/50">
           <h2 className="font-semibold mb-3">Sports Car (Performance Coupe)</h2>
           <p className="mb-3">Sports cars are built for speed, performance, and style. They have powerful engines, sharp handling, and sleek designs, making them exciting to drive and eye-catching on the road.</p>
+          <Link href="#" className="text-sky-700">See more</Link>
         </div>
 
-        <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
+        <div className="w-full p-4 bg-white/30 shadow shadow-black/30 rounded hover:shadow-lg hover:shadow-black/50">
           <h2 className="font-semibold mb-3">Luxury Cars</h2>
-          <p className="mb-3">Luxury cars are built for comfort, class, and advanced features. They offer premium materials, smooth rides, and high performance, often seen as a status symbol.</p>          
+          <p className="mb-3">Luxury cars are built for comfort, class, and advanced features. They offer premium materials, smooth rides, and high performance, often seen as a status symbol.</p>
+          <Link href="#" className="text-sky-700">See more</Link>
         </div>
 
-        <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
+        <div className="w-full p-4 bg-white/30 shadow shadow-black/30 rounded hover:shadow-lg hover:shadow-black/50">
           <h2 className="font-semibold mb-3">Convertible Cars</h2>
           <p className="mb-3">Convertible cars have a roof that can be opened or closed. They give drivers the joy of open-air driving and are perfect for enjoying sunny weather in style.</p>
+          <Link href="#" className="text-sky-700">See more</Link>
         </div>
 
-        <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30 sm:col-span-2 lg:col-span-1">
+        <div className="w-full p-4 bg-white/30 shadow shadow-black/30 rounded hover:shadow-lg hover:shadow-black/50 sm:col-span-2 lg:col-span-1">
           <h2 className="font-semibold mb-3">Muscle Cars</h2>
-          <p className="mb-3">Muscle cars are powerful vehicles with strong engines, usually V8s. They are famous for speed, aggressive looks, and roaring sounds, especially popular in American car culture.</p>          
+          <p className="mb-3">Muscle cars are powerful vehicles with strong engines, usually V8s. They are famous for speed, aggressive looks, and roaring sounds, especially popular in American car culture.</p>
+          <Link href="#" className="text-sky-700">See more</Link>
         </div>
 
       </div>
     </details>
 
-    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-center mb-4 md:mb-5">Top Blogs</h2>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 justify-center p-4">
-      
-      <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
-        <div className="flex justify-center items-center">
-          <Image 
-            src="/BMW.jpg" 
-            alt="Image of BMW" 
-            width={300} 
-            height={200}
-            className="rounded-sm mb-5 w-full h-auto"
-          />
-        </div>
-        <p>BMW sports cars are stylish and powerful, offering sharp handling, strong engines, and modern design.</p>
-        <p><Link href="/blogs/blogsdata#BMW" className="text-sky-700">Read More →</Link></p>
+    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-pretty mb-4 md:mb-5">Top Blogs</h2>
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 justify-center p-4">
+  {blogs.slice(0, 6).map((blog, i) => (
+    <div key={i} className="w-full p-4 bg-white/30 rounded shadow shadow-black/30 hover:shadow-lg hover:shadow-black/50">
+      <div className="flex justify-center items-center">
+        <Image 
+          src={blog.image} 
+          alt={blog.alt} 
+          width={300} 
+          height={200}
+          className="rounded-sm mb-5 w-full h-auto"
+        />
       </div>
-
-      <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
-        <div className="flex justify-center items-center">
-          <Image 
-            src="/RR.webp" 
-            alt="Image of Rolls Royce" 
-            width={300} 
-            height={200}
-            className="rounded-sm mb-5 w-full h-auto"
-          />
-        </div>
-        <p>Iconic luxury cars known for elegance, comfort, and powerful performance.</p>
-        <p><Link href="/blogs/blogsdata#Rolls-Royce" className="text-sky-700">Read More →</Link></p>
-      </div>
-
-      <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
-        <div className="flex justify-center items-center">
-          <Image 
-            src="/Porsche.webp" 
-            alt="Image of Porsche" 
-            width={300} 
-            height={200}
-            className="rounded-sm mb-5 w-full h-auto"
-          />
-        </div>
-        <p>A luxury sports convertible that offers open-top driving, timeless design, and powerful performance.</p>
-        <p><Link href="/blogs/blogsdata#Porsche" className="text-sky-700">Read More →</Link></p>
-      </div>
-
-      <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
-        <div className="flex justify-center items-center">
-          <Image 
-            src="/Charger.jpg" 
-            alt="Image of Charger" 
-            width={300} 
-            height={200}
-            className="rounded-sm mb-5 w-full h-auto"
-          />
-        </div>
-        <p>A powerful American muscle car with a supercharged V8 engine, aggressive design, and thrilling speed.</p>
-        <p><Link href="/blogs/blogsdata#Charger" className="text-sky-700">Read More →</Link></p>
-      </div>
-
-      <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
-        <div className="flex justify-center items-center">
-          <Image 
-            src="/Supra.jpg" 
-            alt="Image of Charger" 
-            width={300} 
-            height={200}
-            className="rounded-sm mb-5 w-full h-auto"
-          />
-        </div>
-        <p>A legendary Japanese sports car known for its sleek design, powerful turbo engine, and huge tuning potential.</p>
-        <p><Link href="/blogs/blogsdata#Supra" className="text-sky-700">Read More →</Link></p>
-      </div>
-
-      <div className="w-full p-4 rounded shadow shadow-gray-700 hover:shadow-lg hover:shadow-gray-600 bg-white/30">
-        <div className="flex justify-center items-center">
-          <Image 
-            src="/Dchallenger.jpeg" 
-            alt="Image of Charger" 
-            width={300} 
-            height={200}
-            className="rounded-sm mb-5 w-full h-auto"
-          />
-        </div>
-        <p>A classic American muscle car with aggressive styling, a powerful engine, and thrilling road performance.</p>
-        <p><Link href="/blogs/blogsdata#Challenger" className="text-sky-700">Read More →</Link></p>
-      </div>
-
+      <p>{blog.excerpt}</p>
+      <Link href={`/blogs/${blog.slug}`} className="text-sky-700">
+        Click to See More
+      </Link>
     </div>
+  ))}
+</div>
   </div>
 </main>
+
+
+   
 
    </>
   );
