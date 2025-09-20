@@ -5,6 +5,7 @@
     "title": "BMW M4 Sports",
     "image": "/BMW.jpg",
     "alt": "BMW Blog",
+    "category": "Sports Cars",
     "content": [
       "The BMW M4 is a high-performance sports coupe that perfectly blends luxury with speed. It is powered by a 3.0-liter twin-turbo inline-6 engine, producing around 473 hp in the standard model and up to 503 hp in the M4 Competition. With this power, the M4 can accelerate from 0–100 km/h (0–62 mph) in about 3.8 to 4.1 seconds, depending on the variant.",
       "The car offers rear-wheel drive or xDrive all-wheel drive options, giving drivers both agility and stability. Its top speed is electronically limited to 250 km/h (155 mph), but with the optional M Driver’s Package, it can reach around 280–290 km/h (174–180 mph).",
@@ -16,6 +17,7 @@
     "title": "Dodge Charger Hellcat",
     "image": "/Charger.jpg",
     "alt": "Charger Hellcat Blog",
+    "category": "Muscle Cars",
     "content": [
       "The Dodge Charger Hellcat is one of the most powerful and aggressive muscle sedans in the world. Under its hood lies a 6.2-liter supercharged HEMI V8 engine that produces up to 717 hp in the standard Hellcat and goes even higher in special trims like the Hellcat Redeye, which delivers around 797 hp.",
       "Thanks to this massive power, the Charger Hellcat can accelerate from 0–100 km/h (0–62 mph) in about 3.5 seconds, making it extremely quick for a four-door sedan. Its top speed reaches around 320 km/h (200 mph), placing it among the fastest muscle cars ever built.",
@@ -28,6 +30,7 @@
     "title": "Toyota Supra MK4",
     "image": "/Supra.jpg",
     "alt": "Supra Blog",
+    "category": "Sports Cars",
     "content": [
       "The Toyota Supra MK4, produced between 1993 and 2002, is one of the most legendary Japanese sports cars ever made. It gained worldwide fame for its performance, design, and huge tuning potential.",
       "At its heart, the MK4 came with two engine options, but the most famous is the 3.0-liter twin-turbocharged inline-6 (2JZ-GTE). This engine produced around 276 hp in Japan (due to regulations), while international versions delivered 320 hp. With its strong build, the 2JZ engine became a favorite among car tuners, capable of handling 800+ hp with modifications.",
@@ -41,6 +44,7 @@
     "title": "Ford Mustang Shelby GT500",
     "image": "/Mustang.jpeg",
     "alt": "Mustang Blog",
+    "category": "Sports Cars",
     "content": [
       "The Ford Mustang Shelby GT500 is the most powerful production Mustang ever built, combining American muscle with modern performance engineering. It stands out with its aggressive styling, aerodynamic design, and a supercharged powerhouse under the hood.",
       "At its core, the GT500 is powered by a 5.2-liter supercharged V8 engine, famously called the Predator. This engine delivers an incredible 760 horsepower and 625 lb-ft of torque, making it one of the strongest V8s ever fitted in a muscle car.",
@@ -54,6 +58,7 @@
     "title": "Rolls-Royce Elegance",
     "image": "/RR.webp",
     "alt": "Rolls Royce Blog",
+    "category": "Luxury Cars",
     "content": [
       "Rolls-Royce cars are world-famous for their unmatched luxury, craftsmanship, and smooth performance. Models like the Phantom and Ghost represent true automotive elegance, combining timeless design with advanced engineering. Every detail, from the iconic Spirit of Ecstasy emblem to the hand-crafted interiors, reflects ultimate prestige and sophistication.",
       "Under the hood, Rolls-Royce vehicles are powered by 6.6 to 6.75-liter twin-turbocharged V12 engines, delivering between 563 hp to 563+ hp depending on the model. Despite their massive size, these cars accelerate effortlessly, with the Ghost reaching 0–100 km/h (0–62 mph) in about 4.6 seconds, while the Phantom achieves it in around 5.3 seconds. The top speed is electronically limited to 250 km/h (155 mph), focusing more on a serene ride than raw racing speed.",
@@ -66,6 +71,7 @@
     "title": "Porsche 911 Turbo S",
     "image": "/Porsche.webp",
     "alt": "Porsche Blog",
+    "category": "Convertible Cars",
     "content": [
       "The Porsche 911 Cabriolet is a perfect blend of timeless design, open-top freedom, and thrilling performance. As a convertible version of the iconic 911, it offers drivers the joy of wind-in-the-hair driving while maintaining the precision, speed, and handling that the 911 is famous for. Its sleek silhouette, wide stance, and advanced aerodynamics make it both elegant and sporty.",
       "Under the hood, the 911 Cabriolet comes with a range of engines depending on the variant. The base model features a 3.0-liter twin-turbocharged flat-six engine producing around 379 hp, while higher trims like the Carrera S deliver 443 hp. The powerful Turbo and Turbo S versions push output up to 640 hp, allowing incredible performance. Depending on the model, the 911 Cabriolet can accelerate from 0–100 km/h (0–62 mph) in as little as 3.0 seconds, with top speeds reaching up to 305 km/h (190 mph).",
@@ -78,6 +84,7 @@
     "title": "Chevrolet Camaro ZL1",
     "image": "/Camaro.jpg",
     "alt": "Camaro Blog",
+    "category": "Muscle Cars",
     "content": [
       "The Chevrolet Camaro ZL1 is the ultimate performance version of the iconic Camaro, combining American muscle with modern engineering. With its aggressive design, aerodynamic body, and track-focused features, the ZL1 stands out as one of the most powerful cars in Chevrolet’s lineup. It is built to deliver both thrilling straight-line speed and sharp handling on the track.",
       "At its core, the ZL1 is powered by a 6.2-liter supercharged V8 engine, producing an impressive 650 horsepower and 650 lb-ft of torque. This immense power allows the Camaro ZL1 to accelerate from 0–100 km/h (0–62 mph) in just 3.5 seconds, making it one of the fastest muscle cars on the road. Its top speed reaches around 318 km/h (198 mph), putting it in true supercar territory.",
@@ -90,6 +97,7 @@
     "title": "Dodge Challenger SRT Demon",
     "image": "/Dchallenger.jpeg",
     "alt": "Challenger Blog",
+    "category": "Muscle Cars",
     "content": [
       "The Dodge Challenger is one of the most iconic American muscle cars, blending classic retro-inspired styling with modern performance. Known for its wide stance, bold lines, and aggressive presence, the Challenger carries forward the spirit of the original 1970s muscle era while offering today’s technology and comfort.",
       "The Challenger comes with a wide range of engines to suit different driving experiences. The base models feature a 3.6-liter V6 engine with around 303 hp, while the more powerful trims offer V8 options like the 5.7-liter HEMI V8 (375 hp) and the 6.4-liter V8 (485 hp). The high-performance versions, such as the SRT Hellcat, push power up to 717 hp, and the Hellcat Redeye delivers a jaw-dropping 797 hp. This makes the Challenger one of the most powerful production muscle cars in the world.",
@@ -102,6 +110,7 @@
     "title": "Bentley Flying Spur",
     "image": "/Bentley.jpg",
     "alt": "Bentley Blog",
+    "category": "Luxury Cars",
     "content": [
       "The Bentley Flying Spur is a luxury grand tourer sedan that blends elegance, craftsmanship, and performance. With its bold design, iconic grille, and refined details, it represents prestige and comfort for both drivers and passengers.",
       "It offers multiple engines, including a 6.0L twin-turbo W12 with 626 hp, capable of 0–100 km/h in 3.8 seconds and a top speed of 333 km/h (207 mph). Other options include a 4.0L V8 and a 2.9L hybrid, giving a mix of power and efficiency.",
