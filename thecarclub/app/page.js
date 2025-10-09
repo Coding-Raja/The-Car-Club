@@ -33,7 +33,7 @@ export default function Home() {
                 your journey, our community is built to share knowledge, reviews, and insights on everything with 
                 wheels—from classic cars to modern trucks and beyond.
              </p>
-             <div type="button" className="bg-white/30 w-full text-black/50 sm:w-2/3 md:w-2/5 lg:w-1/5 p-2 sm:p-3 mx-auto flex justify-center rounded-md shadow shadow-gray-500 hover:bg-black/50 duration-500 hover:text-white/70 hover:cursor-pointer hover:shadow-lg hover:shadow-gray-600"><Link href="/about">See About Us</Link></div>
+             <div type="button" className="bg-white/30 w-full text-black/50 sm:w-2/3 md:w-2/5 lg:w-1/5 p-2 sm:p-3 mx-auto flex justify-center rounded-md shadow shadow-black/50 hover:bg-black/90 duration-500 hover:text-white hover:cursor-pointer hover:shadow-xl hover:shadow-black/90"><Link href="/about">See About Us</Link></div>
          </div>
      </main>
       <main className="flex justify-center items-center mt-5 px-4 sm:px-6 lg:px-8">
@@ -47,25 +47,21 @@ export default function Home() {
         <div className="w-full p-4 bg-white/30 shadow shadow-black/30 rounded hover:shadow-lg hover:shadow-black/50">
           <h2 className="font-semibold mb-3">Sports Car (Performance Coupe)</h2>
           <p className="mb-3">Sports cars are built for speed, performance, and style. They have powerful engines, sharp handling, and sleek designs, making them exciting to drive and eye-catching on the road.</p>
-          <Link href="#" className="text-sky-700">See more</Link>
         </div>
 
         <div className="w-full p-4 bg-white/30 shadow shadow-black/30 rounded hover:shadow-lg hover:shadow-black/50">
           <h2 className="font-semibold mb-3">Luxury Cars</h2>
           <p className="mb-3">Luxury cars are built for comfort, class, and advanced features. They offer premium materials, smooth rides, and high performance, often seen as a status symbol.</p>
-          <Link href="#" className="text-sky-700">See more</Link>
         </div>
 
         <div className="w-full p-4 bg-white/30 shadow shadow-black/30 rounded hover:shadow-lg hover:shadow-black/50">
           <h2 className="font-semibold mb-3">Convertible Cars</h2>
           <p className="mb-3">Convertible cars have a roof that can be opened or closed. They give drivers the joy of open-air driving and are perfect for enjoying sunny weather in style.</p>
-          <Link href="#" className="text-sky-700">See more</Link>
         </div>
 
         <div className="w-full p-4 bg-white/30 shadow shadow-black/30 rounded hover:shadow-lg hover:shadow-black/50 sm:col-span-2 lg:col-span-1">
           <h2 className="font-semibold mb-3">Muscle Cars</h2>
           <p className="mb-3">Muscle cars are powerful vehicles with strong engines, usually V8s. They are famous for speed, aggressive looks, and roaring sounds, especially popular in American car culture.</p>
-          <Link href="#" className="text-sky-700">See more</Link>
         </div>
 
       </div>

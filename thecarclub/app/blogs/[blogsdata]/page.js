@@ -40,7 +40,7 @@ export default function BlogPage({ params }) {
 
         {/* Button under the paragraphs */}
         <div className="mt-8 flex justify-center">
-          <button className="px-6 w-1/4 py-3 text-sm sm:text-base bg-white/50 text-black rounded-lg shadow shadow-black/30 hover:shadow-lg hover:shadow-black/60 hover:bg-black/40 hover:text-white/70 cursor-pointer transition duration-500">
+          <button className="px-6 w-1/4 py-3 text-sm sm:text-base bg-white/50 text-black rounded-lg shadow-md shadow-black/50 hover:shadow-xl hover:shadow-black/70 hover:bg-black/90 hover:text-white cursor-pointer transition duration-500">
             <Link href="/blogs">
               Go Back
             </Link>
