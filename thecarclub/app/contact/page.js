@@ -29,14 +29,14 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_121jcwb",      // 🔹 Replace with your EmailJS Service ID
-        "template_gtglyfq",     // 🔹 Replace with your EmailJS Template ID
+        "service_121jcwb",     
+        "template_gtglyfq",    
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
         },
-        "PgeF_GKrvULUUqsLm"       // 🔹 Replace with your EmailJS Public Key
+        "PgeF_GKrvULUUqsLm"       
       )
       .then(
         () => {
