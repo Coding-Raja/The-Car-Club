@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "The Car Club - Your Ultimate Automotive Community | Car Reviews & News",
-  description: "Join The Car Club - India's fastest growing automotive community. Get expert car reviews, latest auto news, buying guides & connect with car enthusiasts.",
+  description: "Join The Car Club - Pakistan's fastest growing automotive community. Get expert car reviews, latest auto news, buying guides & connect with car enthusiasts.",
   keywords: "car reviews, automotive news, car buying guide, auto community, car accessories, vehicle maintenance, car modifications",
   authors: [{ name: "The Car Club" }],
   openGraph: {
